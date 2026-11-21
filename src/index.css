@@ -1,1 +1,4 @@
 @import "tailwindcss";
+
+/* Don't scan the generated SSG output for class names */
+@source not "../www";
